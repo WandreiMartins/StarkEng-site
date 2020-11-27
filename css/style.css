@@ -503,20 +503,20 @@ footer p{
 	min-width: 280px;
 	
 }
-section div h1, h2, h3, h4, h5, h6, h7, p{
+section div h1, h2, h3, h4, h5, h6, p{
 	margin: 0 15px 0 15px;
 }
-section div h1, section div h2, section div h3, section div h4, section div h5, section div h6, section div h7, h2{
+section div h1, section div h2, section div h4, section div h5, section div h6, section div h7, h2{
 	border-bottom: 2px solid #b89845;
 	display: inline-block;
 	margin-bottom: 20px;
 }
 
 .titulo{
-	/* border-bottom: none; */
 	display: block;
-	/* border-left: 2px solid #b89845 ; */
-	/* background-color:#b89845 ; */
+}
+section div h3 {
+	margin-bottom: 15px;
 }
  
 
