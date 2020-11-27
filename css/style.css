@@ -469,24 +469,22 @@ footer p{
   	padding:  50px;
   	/* border: 1px solid red; */
 
-  }
+	}
+	.div-c04-1{
+		display: flex;
+		flex-wrap: wrap; 
+		margin-bottom: 15px;
+
+	}
   .div-c04{
-	display: flex;
-	flex-wrap: wrap;
-	/* background: blue; */
-	/* border: 1px solid red; */
-
-  }
-.div-c04-iten01{
-	margin: 30px;
-	/* border: 1px solid red; */
-	flex-grow: 1;
-}
-
-.div-c04-iten01-01 img{
-	/* width: 50%; */
-	margin-left: 20%;
-	/* border: 1px solid red; */
+		width: 40%;
+		min-width: 280px;
+		flex-grow: 1;
+	}
+	
+.div-c04 img{
+	display: block;
+	margin:  auto;
 	}
 
 /* Serviços */
@@ -494,9 +492,8 @@ footer p{
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	/* border: 1px solid red; */
-	/* box-shadow: inset 5px 5px 5px #d1d1d1,  inset -5px -5px 5px #d1d1d1 ; */
 }
+
 .div-ser01 img{
 	margin: 20px;
 	width: 45%;
