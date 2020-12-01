@@ -449,16 +449,19 @@ footer p{
  	text-shadow: 1px 1px  #000;
  }
  .div-c02{
- 	padding: 20px 0px 20px 0px;
+ 	padding: 20px;
  }
  .div-c03{
  	display: flex;
- 	flex-wrap: wrap;
+	 flex-wrap: wrap;
+	 padding: 20px;
  	
 
   }
   .div-c03-itens{
-  	margin-bottom: 50px;
+		padding: 20px;
+		margin-bottom: 50px;
+		
 	min-width: 200px;
 	width: 25%;
   	flex-grow: 1;
@@ -474,6 +477,7 @@ footer p{
 		display: flex;
 		flex-wrap: wrap; 
 		margin-bottom: 15px;
+		padding: 20px;
 
 	}
   .div-c04{
@@ -481,8 +485,11 @@ footer p{
 		min-width: 280px;
 		flex-grow: 1;
 	}
-	.div-c04 h3{
+	.div-c04-iten01{
 		text-align: center;
+	}
+	.div-c04-iten01 p{
+		font-size: 18px;
 	}
 	
 .div-c04 img{
@@ -503,20 +510,19 @@ footer p{
 	min-width: 280px;
 	
 }
-section div h1, h2, h3, h4, h5, h6, p{
-	margin: 0 15px 0 15px;
-}
-section div h1, section div h2, section div h4, section div h6, h2{
-	border-bottom: 2px solid #b89845;
+
+section div h1, section div h2{
 	display: inline-block;
 	margin-bottom: 20px;
 }
 
 .titulo{
 	display: block;
+	border-bottom: 2px solid #b89845;
 }
 section div h3 {
 	margin-bottom: 15px;
+	
 }
 
 .cont-div{
