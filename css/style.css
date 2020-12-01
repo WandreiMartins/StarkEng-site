@@ -477,9 +477,12 @@ footer p{
 
 	}
   .div-c04{
-		width: 40%;
+		width: 30%;
 		min-width: 280px;
 		flex-grow: 1;
+	}
+	.div-c04 h3{
+		text-align: center;
 	}
 	
 .div-c04 img{
@@ -503,7 +506,7 @@ footer p{
 section div h1, h2, h3, h4, h5, h6, p{
 	margin: 0 15px 0 15px;
 }
-section div h1, section div h2, section div h4, section div h5, section div h6, section div h7, h2{
+section div h1, section div h2, section div h4, section div h6, h2{
 	border-bottom: 2px solid #b89845;
 	display: inline-block;
 	margin-bottom: 20px;
@@ -515,5 +518,46 @@ section div h1, section div h2, section div h4, section div h5, section div h6, 
 section div h3 {
 	margin-bottom: 15px;
 }
- 
+
+.cont-div{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1200px;
+	/* height: 500px; */
+	margin: auto;
+	font-size: 18px;
+	}
+ .cont-div-01{
+	 flex-grow: 1;
+	 /* border: 1px solid red; */
+	 width: 30%;
+	 min-width: 250px ;
+	 margin:10% 10px 10% 10px;
+	 
+ }
+ div form {
+	 display: flex;
+	 flex-direction: column;
+	 
+ }
+ div form input{
+	 height: 60px;
+	 border: 1px solid #b8b8b8;
+	 margin: 5px 0px 5px 0px ;
+	 border-radius: 10px;
+ }
+ div form textarea{
+	border: 1px solid #b8b8b8;
+	margin: 5px 0px 5px 0px ;
+	border-radius: 10px;
+	/* height: 296.80px; */
+ }
+.input-submit{
+	background-color:#b89845 ;
+	border: none;
+}
+.strong01 {
+	font-size: 22px;
+	border-bottom: 2px solid #b89845 ;
+}
 
